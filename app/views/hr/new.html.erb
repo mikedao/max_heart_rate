@@ -1,0 +1,9 @@
+<h1>Age-Based Maximum Heart Rate Formulae</h1>
+<h3>Enter your age:</h3>
+</br>
+
+<%= form_with url: "/", method: :post, local: true do |form| %>
+  <%= form.label :age %>
+  <%= form.text_field :age %>
+  <%= form.submit 'Submit' %>
+<% end %>
